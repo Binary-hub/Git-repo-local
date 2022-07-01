@@ -66,5 +66,11 @@ public class Header {
 		 this.version = version; } 
 
     private String version;
+
+    @Override
+    public String toString() {
+        return "Header [clientCode=" + clientCode + ", language=" + language + ", requestId=" + requestId + ", userId="
+                + userId + ", userKey=" + userKey + ", version=" + version + ", warehouseCode=" + warehouseCode + "]";
+    }
     
 }

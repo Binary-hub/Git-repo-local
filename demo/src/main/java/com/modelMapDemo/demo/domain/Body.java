@@ -30,5 +30,10 @@ public class Body {
 		 this.field2 = field2; } 
 
     private String field2;
+
+    @Override
+    public String toString() {
+        return "Body [field1=" + field1 + ", field2=" + field2 + ", taskType=" + taskType + "]";
+    }
     
 }

@@ -1,6 +1,8 @@
 package com.modelMapDemo.demo.domain;
 
+
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class Root {
 
@@ -30,4 +32,10 @@ public class Root {
 		 this.request = request; } 
 
     private Request request;
+
+    @Override
+    public String toString() {
+        return "Root [id=" + id + ", msgType=" + msgType + ", request=" + request + "]";
+    }
+    
 }

@@ -21,5 +21,19 @@ public class RootDto {
 		 this.msgType = msgType; } 
 
     private String msgType;
+
+    @JsonProperty("request") 
+    public Request getRequest() { 
+		 return this.request; } 
+
+    public void setRequest(Request request) { 
+		 this.request = request; } 
+
+    private Request request;
+
+    @Override
+    public String toString() {
+        return "RootDto [id=" + id + ", msgType=" + msgType + ", request=" + request + "]";
+    }
     
 }

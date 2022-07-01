@@ -22,4 +22,10 @@ public class Request {
 
     private Body body;
 
+    @Override
+    public String toString() {
+        return "Request [body=" + body + ", header=" + header + "]";
+    }
+    
+
 }
