@@ -1,0 +1,20 @@
+{
+    "id": "geekCode_geekWarehouseCode_001",
+    "msgType": "RobotTaskRequestMsg",
+    "request": {
+        "header": {
+            "requestId": "9194E002AD324176974AE9438A011EE3",
+            "clientCode": "geekCode",
+            "warehouseCode": "geekWarehouseCode",
+            "userId": "admin",
+            "userKey": "123456",
+            "language": "en_us",
+            "version": "3.3.0"
+        },
+        "body": {
+            "taskType": "GO_SOMEWHERE_TO_STAY",
+            "field1": "xxx",
+            "field2": "xxx"
+        }
+    }
+}
